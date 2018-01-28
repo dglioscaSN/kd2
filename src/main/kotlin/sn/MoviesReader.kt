@@ -12,5 +12,4 @@ object MoviesReader {
         }
     }
 
-    data class Movie(val title: String)
 }
