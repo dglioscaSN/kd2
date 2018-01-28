@@ -9,6 +9,12 @@ class MoviesReaderTest {
     @Test fun `read movies from file`() {
         val actual = MoviesReader.readMoviesFrom("movies.txt")
 
-        assertThat(actual[0], equalTo("Taxi driver\t1976\tyes\tRobert De Niro, Jodie Foster"))
+        assertThat(actual.size, equalTo(5))
+    }
+
+    @Test fun `movies title from file tab separated`() {
+        val actual = MoviesReader.readMoviesFrom("movies.txt")
+
+        assertThat(actual[0].title, equalTo("Taxi driver"))
     }
 }
