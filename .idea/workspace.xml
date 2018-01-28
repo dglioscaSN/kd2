@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MoviesReader.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/movies.txt" afterPath="$PROJECT_DIR$/src/test/resources/movies.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,8 +36,8 @@
       <file leaf-file-name="movies.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/movies.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="56" />
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,8 +46,8 @@
       <file leaf-file-name="MoviesReaderTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#12#115#0" expanded="true" />
               </folding>
@@ -58,8 +58,8 @@
       <file leaf-file-name="MoviesReader.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="72">
+              <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -478,10 +478,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/resources/movies.txt" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/kotlin/MoviesReader.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReader.kt" />
+        <option value="$PROJECT_DIR$/src/test/resources/movies.txt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" />
       </list>
     </option>
@@ -666,7 +667,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MoviesReaderTest.read movies from file">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -685,6 +686,25 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="MoviesReaderTest.read movies from file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kd_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sn" />
+      <option name="MAIN_CLASS_NAME" value="sn.MoviesReaderTest" />
+      <option name="METHOD_NAME" value="read movies from file" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="MoviesReader.read movies from file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kd_test" />
@@ -743,9 +763,14 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MoviesReader.read movies from file" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.read movies from file" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MoviesReader.read movies from file" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.read movies from file" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MoviesReader.read movies from file" />
       </list>
     </recent_temporary>
   </component>
@@ -791,10 +816,23 @@
       <option name="project" value="LOCAL" />
       <updated>1517165760493</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="move MoviesReader.kt in sn package">
+      <created>1517165952786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1517165952786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="MoviesReaderTest_read_movies_from_file - 2018.01.28 at 18h 59m 26s.xml">
+      <configuration name="MoviesReaderTest.read movies from file" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoviesReaderTest_read_movies_from_file - 2018.01.28 at 19h 04m 08s.xml">
+      <configuration name="MoviesReaderTest.read movies from file" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="MoviesReader_read_movies_from_file - 2018.01.28 at 18h 41m 01s.xml">
       <configuration name="MoviesReader.read movies from file" configurationId="JUnit" />
     </history-entry>
@@ -810,8 +848,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -839,7 +877,8 @@
     <MESSAGE value="update kotlin plugin version" />
     <MESSAGE value="test can read movies from file" />
     <MESSAGE value="extract method into an object" />
-    <option name="LAST_COMMIT_MESSAGE" value="extract method into an object" />
+    <MESSAGE value="move MoviesReader.kt in sn package" />
+    <option name="LAST_COMMIT_MESSAGE" value="move MoviesReader.kt in sn package" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -919,26 +958,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/movies.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/movies.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="56" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="56" />
+        <state relative-caret-position="72">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#12#115#0" expanded="true" />
           </folding>
