@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="extracted movie to a single file">
+    <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="reading all movies info from file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/sn/Movie.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/sn/Movie.kt" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/movies.txt" afterPath="$PROJECT_DIR$/src/test/resources/movies.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -35,21 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/movies.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoviesReaderTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoviesReaderTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="234">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#12#115#0" expanded="true" />
               </folding>
@@ -57,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviesReader.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoviesReader.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -497,9 +486,9 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/kotlin/MoviesReader.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReader.kt" />
-        <option value="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/sn/Movie.kt" />
         <option value="$PROJECT_DIR$/src/test/resources/movies.txt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt" />
       </list>
     </option>
@@ -925,7 +914,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517167587663</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="reading all movies info from file">
+      <created>1517261971130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1517261971130</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -956,8 +952,8 @@
     <history-entry file="MoviesReaderTest - 2018.01.29 at 21h 38m 44s.xml">
       <configuration name="MoviesReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoviesReaderTest_read_all_movies_info_from_tab_separated_file - 2018.01.29 at 21h 23m 02s.xml">
-      <configuration name="MoviesReaderTest.read all movies info from tab separated file" configurationId="JUnit" />
+    <history-entry file="MoviesReaderTest - 2018.01.29 at 22h 02m 40s.xml">
+      <configuration name="MoviesReaderTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1006,7 +1002,8 @@
     <MESSAGE value="formatting" />
     <MESSAGE value="remove file from vcs" />
     <MESSAGE value="extracted movie to a single file" />
-    <option name="LAST_COMMIT_MESSAGE" value="extracted movie to a single file" />
+    <MESSAGE value="reading all movies info from file" />
+    <option name="LAST_COMMIT_MESSAGE" value="reading all movies info from file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1087,14 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1111,16 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="40" lean-forward="false" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#12#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/Movie.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1129,11 +1108,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="289">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

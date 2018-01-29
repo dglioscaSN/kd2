@@ -13,11 +13,15 @@ object MoviesReader {
 
     private fun String.toMovie(): Movie {
         val splitLine = split('\t')
+        val title = splitLine[0]
+        val year = splitLine[1].toInt()
+        val awardWinner = splitLine[2]
+        val actors = splitLine[3]
         return Movie(
-            splitLine[0],
-            splitLine[1],
-            splitLine[2],
-            splitLine[3]
+            title,
+            year,
+            awardWinner,
+            actors
         )
     }
 
