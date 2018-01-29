@@ -7,9 +7,18 @@ object MoviesReader {
         movies.use {
             return it.reader()
                 .readLines()
-                .map { it.split('\t')[0] }
-                .map { Movie(it) }
+                .map { it.toMovie() }
         }
+    }
+
+    private fun String.toMovie(): Movie {
+        val splitLine = split('\t')
+        return Movie(
+            splitLine[0],
+            splitLine[1],
+            splitLine[2],
+            splitLine[3]
+        )
     }
 
 }
