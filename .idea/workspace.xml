@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt" afterPath="$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -58,8 +58,8 @@
       <file leaf-file-name="VideoStore.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state relative-caret-position="108">
+              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -68,8 +68,8 @@
       <file leaf-file-name="VideoStoreTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="294">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="e#12#100#0" expanded="true" />
               </folding>
@@ -706,7 +706,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VideoStoreTest.find movie with a specified title">
+  <component name="RunManager" selected="JUnit.VideoStoreTest.find no movies came out in a specific year">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -745,44 +745,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MoviesReaderTest.read all movies info from tab separated file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kd_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sn" />
-      <option name="MAIN_CLASS_NAME" value="sn.MoviesReaderTest" />
-      <option name="METHOD_NAME" value="read all movies info from tab separated file" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MoviesReaderTest.read movies from file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="kd_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="sn" />
-      <option name="MAIN_CLASS_NAME" value="sn.MoviesReaderTest" />
-      <option name="METHOD_NAME" value="read movies from file" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="MoviesReaderTest.split actors into a list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kd_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -802,6 +764,25 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="VideoStoreTest.find all movies came out in a specific year" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kd_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sn" />
+      <option name="MAIN_CLASS_NAME" value="sn.VideoStoreTest" />
+      <option name="METHOD_NAME" value="find all movies came out in a specific year" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="VideoStoreTest.find movie with a specified title" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kd_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -809,6 +790,25 @@
       <option name="PACKAGE_NAME" value="sn" />
       <option name="MAIN_CLASS_NAME" value="sn.VideoStoreTest" />
       <option name="METHOD_NAME" value="find movie with a specified title" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="VideoStoreTest.find no movies came out in a specific year" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kd_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="sn" />
+      <option name="MAIN_CLASS_NAME" value="sn.VideoStoreTest" />
+      <option name="METHOD_NAME" value="find no movies came out in a specific year" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -860,19 +860,19 @@
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.read movies from file" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.read all movies info from tab separated file" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.split actors into a list" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find movie with a specified title" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.split actors into a list" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find movie with a specified title" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find all movies came out in a specific year" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find no movies came out in a specific year" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find movie with a specified title" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.split actors into a list" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.read all movies info from tab separated file" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.read movies from file" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find no movies came out in a specific year" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find all movies came out in a specific year" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find movie with a specified title" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.split actors into a list" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -988,19 +988,17 @@
       <option name="project" value="LOCAL" />
       <updated>1517561396637</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add videostore and functionality to find movies">
+      <created>1517564059497</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1517564059497</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoviesReaderTest - 2018.01.29 at 21h 38m 13s.xml">
-      <configuration name="MoviesReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoviesReaderTest - 2018.01.29 at 21h 38m 44s.xml">
-      <configuration name="MoviesReaderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoviesReaderTest - 2018.01.29 at 22h 02m 40s.xml">
-      <configuration name="MoviesReaderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoviesReaderTest - 2018.01.29 at 22h 05m 41s.xml">
       <configuration name="MoviesReaderTest" configurationId="JUnit" />
     </history-entry>
@@ -1016,11 +1014,20 @@
     <history-entry file="MoviesReaderTest_split_actors_into_a_list - 2018.02.02 at 08h 53m 28s.xml">
       <configuration name="MoviesReaderTest.split actors into a list" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VideoStoreTest_find_all_movies_came_out_in_a_specific_year - 2018.02.02 at 09h 41m 49s.xml">
+      <configuration name="VideoStoreTest.find all movies came out in a specific year" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="VideoStoreTest_find_movie_with_a_specified_title - 2018.02.02 at 09h 32m 52s.xml">
       <configuration name="VideoStoreTest.find movie with a specified title" configurationId="JUnit" />
     </history-entry>
     <history-entry file="VideoStoreTest_find_movie_with_a_specified_title - 2018.02.02 at 09h 33m 56s.xml">
       <configuration name="VideoStoreTest.find movie with a specified title" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VideoStoreTest_find_no_movies_came_out_in_a_specific_year - 2018.02.02 at 09h 42m 23s.xml">
+      <configuration name="VideoStoreTest.find no movies came out in a specific year" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VideoStoreTest_find_no_movies_came_out_in_a_specific_year - 2018.02.02 at 09h 42m 30s.xml">
+      <configuration name="VideoStoreTest.find no movies came out in a specific year" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1072,7 +1079,8 @@
     <MESSAGE value="reading all movies info from file" />
     <MESSAGE value="made year a number" />
     <MESSAGE value="put actors into a list" />
-    <option name="LAST_COMMIT_MESSAGE" value="put actors into a list" />
+    <MESSAGE value="add videostore and functionality to find movies" />
+    <option name="LAST_COMMIT_MESSAGE" value="add videostore and functionality to find movies" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1273,16 +1281,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="108">
+          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
             <element signature="e#12#100#0" expanded="true" />
           </folding>
