@@ -10,7 +10,7 @@ class VideoStoreTest {
         val moviesCollection = listOf(oceansEleven)
         val videoStore = VideoStore(moviesCollection)
 
-        val actual = videoStore.findMovie("Ocean's Eleven")
+        val actual = videoStore.find("Ocean's Eleven")
 
         assertThat(actual, equalTo(oceansEleven))
     }
