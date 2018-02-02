@@ -1,0 +1,5 @@
+Taxi driver	1976	yes	Robert De Niro, Jodie Foster
+Rocky	1976	yes	Sylvester Stallone, Talia Shire
+1900	1976	no	Robert De Niro, Gérard Depardieu
+All the President's men	1976	no	Dustin Hoffman, Robert Redford
+Eskiya	1996	no	Ugur Yücel, Sermin Hürmeriç
