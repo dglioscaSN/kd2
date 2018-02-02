@@ -42,7 +42,7 @@ class VideoStoreTest {
         val donnieDarko = Movie("Donnie Darko", 2001, "no", listOf("Jake Gyllenhaal", "Jena Malone", "Mary McDonnell"))
         val movieCollection = listOf(theoryOfEverything, birdman, donnieDarko)
         val videoStore = VideoStore(movieCollection)
-        val movies = videoStore.awardWinner(true)
+        val movies = videoStore.awardWinner(true, 2015)
 
         assertThat(movies, equalTo(listOf(theoryOfEverything, birdman)))
     }
