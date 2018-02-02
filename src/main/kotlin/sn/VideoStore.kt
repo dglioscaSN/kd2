@@ -1,20 +1,16 @@
 package sn
 
-class VideoStore(val movies: List<Movie>) {
+class VideoStore(private val movies: List<Movie>) {
 
-    fun findMovie(title: String): Movie? = movies.find { it.title == title }
+    fun findMovie(title: String) = movies.find { it.title == title }
 
-    fun cameOutIn(year: Int) : List<Movie> = movies.filter { it.year == year }
+    fun cameOutIn(year: Int) = movies.filter { it.year == year }
 
-    fun awardWinner(awardWinner: Boolean, year: Int): List<Movie> = movies.filter { isAwardWinner(it) == awardWinner }.filter { it.year == year }
+    fun awardWinner(awardWinner: Boolean, year: Int) = movies.filter { isAwardWinner(it) == awardWinner }.filter { it.year == year }
 
-    fun moviesWithSameActorName(actorName: String): List<Movie> {
-        return movies.filter { it.actors.containActor(actorName) }
-    }
+    fun moviesWithSameActorName(actorName: String) = movies.filter { it.actors.containsActor(actorName) }
 
     private fun isAwardWinner(it: Movie) = it.awardWinner == "yes"
 }
 
-private fun List<String>.containActor(actorName: String): Boolean {
-    return this.find { it.contains(actorName) } != null
-}
+private fun List<String>.containsActor(actorName: String) = this.find { it.contains(actorName) } != null

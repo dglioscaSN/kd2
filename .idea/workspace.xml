@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="desperately trying to ignore this file">
+    <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" />
     </list>
@@ -32,7 +32,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviesReaderTest.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoviesReaderTest.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoStore.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="VideoStore.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="36">
+              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -533,8 +533,8 @@
         <option value="$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.java" />
         <option value="$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" />
       </list>
     </option>
   </component>
@@ -1042,7 +1042,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517570605740</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="movies with same actor name">
+      <created>1517570822237</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1517570822237</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1132,7 +1139,8 @@
     <MESSAGE value="clean up" />
     <MESSAGE value="git ignore update" />
     <MESSAGE value="desperately trying to ignore this file" />
-    <option name="LAST_COMMIT_MESSAGE" value="desperately trying to ignore this file" />
+    <MESSAGE value="movies with same actor name" />
+    <option name="LAST_COMMIT_MESSAGE" value="movies with same actor name" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1512,14 +1520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
@@ -1530,38 +1530,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
-            <element signature="e#6108#6112#1" expanded="true" />
-            <element signature="e#44737#44741#0" expanded="true" />
-            <element signature="e#44747#44751#0" expanded="true" />
-            <element signature="e#44832#44836#0" expanded="true" />
-            <element signature="e#44842#44846#0" expanded="true" />
-            <element signature="e#44925#44929#0" expanded="true" />
-            <element signature="e#44935#44939#0" expanded="true" />
-            <element signature="e#44952#44956#0" expanded="true" />
-            <element signature="e#45032#45036#0" expanded="true" />
-            <element signature="e#45042#45046#0" expanded="true" />
-            <element signature="e#45134#45138#0" expanded="true" />
-            <element signature="e#45144#45148#0" expanded="true" />
-            <element signature="e#45227#45231#0" expanded="true" />
-            <element signature="e#45237#45241#0" expanded="true" />
-            <element signature="e#45317#45321#0" expanded="true" />
-            <element signature="e#45327#45331#0" expanded="true" />
-            <element signature="e#45408#45412#0" expanded="true" />
-            <element signature="e#45418#45422#0" expanded="true" />
-            <element signature="e#45433#45437#0" expanded="true" />
+            <element signature="e#6146#6150#1" expanded="true" />
+            <element signature="e#44775#44779#0" expanded="true" />
+            <element signature="e#44785#44789#0" expanded="true" />
+            <element signature="e#44870#44874#0" expanded="true" />
+            <element signature="e#44880#44884#0" expanded="true" />
+            <element signature="e#44963#44967#0" expanded="true" />
+            <element signature="e#44973#44977#0" expanded="true" />
+            <element signature="e#44990#44994#0" expanded="true" />
+            <element signature="e#45070#45074#0" expanded="true" />
+            <element signature="e#45080#45084#0" expanded="true" />
+            <element signature="e#45172#45176#0" expanded="true" />
+            <element signature="e#45182#45186#0" expanded="true" />
+            <element signature="e#45265#45269#0" expanded="true" />
+            <element signature="e#45275#45279#0" expanded="true" />
+            <element signature="e#45355#45359#0" expanded="true" />
+            <element signature="e#45365#45369#0" expanded="true" />
+            <element signature="e#45446#45450#0" expanded="true" />
+            <element signature="e#45456#45460#0" expanded="true" />
+            <element signature="e#45471#45475#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1589,6 +1581,22 @@
           <folding>
             <element signature="e#12#115#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
