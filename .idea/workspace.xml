@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoStore.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VideoStore.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="288">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -535,6 +544,7 @@
         <option value="$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
       </list>
     </option>
   </component>
@@ -1049,7 +1059,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517570822237</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="clean up">
+      <created>1517570925227</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1517570925227</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1096,8 +1113,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1136,11 +1153,11 @@
     <MESSAGE value="add videostore and functionality to find movies" />
     <MESSAGE value="find movies in a specific year" />
     <MESSAGE value="find movies won award" />
-    <MESSAGE value="clean up" />
     <MESSAGE value="git ignore update" />
     <MESSAGE value="desperately trying to ignore this file" />
     <MESSAGE value="movies with same actor name" />
-    <option name="LAST_COMMIT_MESSAGE" value="movies with same actor name" />
+    <MESSAGE value="clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1156,14 +1173,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1535,25 +1544,25 @@
         <state relative-caret-position="180">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
-            <element signature="e#6146#6150#1" expanded="true" />
-            <element signature="e#44775#44779#0" expanded="true" />
-            <element signature="e#44785#44789#0" expanded="true" />
-            <element signature="e#44870#44874#0" expanded="true" />
-            <element signature="e#44880#44884#0" expanded="true" />
-            <element signature="e#44963#44967#0" expanded="true" />
-            <element signature="e#44973#44977#0" expanded="true" />
-            <element signature="e#44990#44994#0" expanded="true" />
-            <element signature="e#45070#45074#0" expanded="true" />
-            <element signature="e#45080#45084#0" expanded="true" />
-            <element signature="e#45172#45176#0" expanded="true" />
-            <element signature="e#45182#45186#0" expanded="true" />
-            <element signature="e#45265#45269#0" expanded="true" />
-            <element signature="e#45275#45279#0" expanded="true" />
-            <element signature="e#45355#45359#0" expanded="true" />
-            <element signature="e#45365#45369#0" expanded="true" />
-            <element signature="e#45446#45450#0" expanded="true" />
-            <element signature="e#45456#45460#0" expanded="true" />
-            <element signature="e#45471#45475#0" expanded="true" />
+            <element signature="e#6398#6402#1" expanded="true" />
+            <element signature="e#45082#45086#0" expanded="true" />
+            <element signature="e#45092#45096#0" expanded="true" />
+            <element signature="e#45177#45181#0" expanded="true" />
+            <element signature="e#45187#45191#0" expanded="true" />
+            <element signature="e#45270#45274#0" expanded="true" />
+            <element signature="e#45280#45284#0" expanded="true" />
+            <element signature="e#45297#45301#0" expanded="true" />
+            <element signature="e#45377#45381#0" expanded="true" />
+            <element signature="e#45387#45391#0" expanded="true" />
+            <element signature="e#45479#45483#0" expanded="true" />
+            <element signature="e#45489#45493#0" expanded="true" />
+            <element signature="e#45572#45576#0" expanded="true" />
+            <element signature="e#45582#45586#0" expanded="true" />
+            <element signature="e#45662#45666#0" expanded="true" />
+            <element signature="e#45672#45676#0" expanded="true" />
+            <element signature="e#45753#45757#0" expanded="true" />
+            <element signature="e#45763#45767#0" expanded="true" />
+            <element signature="e#45778#45782#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1594,8 +1603,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding />
         </state>
       </provider>
