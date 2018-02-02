@@ -58,8 +58,8 @@
       <file leaf-file-name="VideoStore.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -68,8 +68,8 @@
       <file leaf-file-name="VideoStoreTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="442">
+              <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
               <folding>
                 <element signature="e#12#100#0" expanded="true" />
               </folding>
@@ -706,7 +706,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VideoStoreTest.find no movies came out in a specific year">
+  <component name="RunManager" selected="JUnit.VideoStoreTest.award winner in a specific year">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -726,14 +726,14 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="MoviesReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoviesReaderTest.split actors into a list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kd_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="sn" />
       <option name="MAIN_CLASS_NAME" value="sn.MoviesReaderTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="split actors into a list" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -745,13 +745,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MoviesReaderTest.split actors into a list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VideoStoreTest.award winner in a specific year" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="kd_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="sn" />
-      <option name="MAIN_CLASS_NAME" value="sn.MoviesReaderTest" />
-      <option name="METHOD_NAME" value="split actors into a list" />
+      <option name="MAIN_CLASS_NAME" value="sn.VideoStoreTest" />
+      <option name="METHOD_NAME" value="award winner in a specific year" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -860,19 +860,19 @@
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.split actors into a list" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find movie with a specified title" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find all movies came out in a specific year" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find no movies came out in a specific year" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.split actors into a list" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find movie with a specified title" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find all movies came out in a specific year" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find no movies came out in a specific year" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.award winner in a specific year" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find no movies came out in a specific year" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find all movies came out in a specific year" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find movie with a specified title" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.split actors into a list" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.award winner in a specific year" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find no movies came out in a specific year" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find all movies came out in a specific year" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VideoStoreTest.find movie with a specified title" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MoviesReaderTest.split actors into a list" />
       </list>
     </recent_temporary>
   </component>
@@ -995,24 +995,25 @@
       <option name="project" value="LOCAL" />
       <updated>1517564059497</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="find movies in a specific year">
+      <created>1517564579281</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1517564579281</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoviesReaderTest - 2018.01.29 at 22h 05m 41s.xml">
-      <configuration name="MoviesReaderTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoviesReaderTest - 2018.02.02 at 08h 49m 34s.xml">
       <configuration name="MoviesReaderTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoviesReaderTest_split_actors_into_a_list - 2018.02.02 at 08h 47m 53s.xml">
-      <configuration name="MoviesReaderTest.split actors into a list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MoviesReaderTest_split_actors_into_a_list - 2018.02.02 at 08h 49m 27s.xml">
-      <configuration name="MoviesReaderTest.split actors into a list" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MoviesReaderTest_split_actors_into_a_list - 2018.02.02 at 08h 53m 28s.xml">
       <configuration name="MoviesReaderTest.split actors into a list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VideoStoreTest_award_winner_in_a_specific_year - 2018.02.02 at 10h 30m 38s.xml">
+      <configuration name="VideoStoreTest.award winner in a specific year" configurationId="JUnit" />
     </history-entry>
     <history-entry file="VideoStoreTest_find_all_movies_came_out_in_a_specific_year - 2018.02.02 at 09h 41m 49s.xml">
       <configuration name="VideoStoreTest.find all movies came out in a specific year" configurationId="JUnit" />
@@ -1029,6 +1030,12 @@
     <history-entry file="VideoStoreTest_find_no_movies_came_out_in_a_specific_year - 2018.02.02 at 09h 42m 30s.xml">
       <configuration name="VideoStoreTest.find no movies came out in a specific year" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="VideoStoreTest_find_no_movies_came_out_in_a_specific_year - 2018.02.02 at 10h 24m 29s.xml">
+      <configuration name="VideoStoreTest.find no movies came out in a specific year" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VideoStoreTest_find_no_movies_came_out_in_a_specific_year - 2018.02.02 at 10h 29m 43s.xml">
+      <configuration name="VideoStoreTest.find no movies came out in a specific year" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="998" extended-state="0" />
@@ -1041,7 +1048,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1080,7 +1087,8 @@
     <MESSAGE value="made year a number" />
     <MESSAGE value="put actors into a list" />
     <MESSAGE value="add videostore and functionality to find movies" />
-    <option name="LAST_COMMIT_MESSAGE" value="add videostore and functionality to find movies" />
+    <MESSAGE value="find movies in a specific year" />
+    <option name="LAST_COMMIT_MESSAGE" value="find movies in a specific year" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1281,16 +1289,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/VideoStoreTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="442">
+          <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
           <folding>
             <element signature="e#12#100#0" expanded="true" />
           </folding>

@@ -7,4 +7,8 @@ class VideoStore(val movies: List<Movie>) {
     fun cameOutIn(year: Int) : List<Movie> {
         return movies.filter { it.year == year }
     }
+
+    fun awardWinner(awardWinner: String): List<Movie> {
+        return movies.filter { it.awardWinner == awardWinner }
+    }
 }
