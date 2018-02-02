@@ -21,12 +21,18 @@ class MoviesReaderTest {
     @Test fun `read all movies info from tab separated file`() {
         val actual = MoviesReader.readMoviesFrom("movies.txt")
 
-        assertThat(actual[0], equalTo(Movie("Taxi driver", 1976, "yes", "Robert De Niro, Jodie Foster")))
+        assertThat(actual[0], equalTo(Movie("Taxi driver", 1976, "yes", listOf("Robert De Niro", "Jodie Foster"))))
     }
 
     @Test fun `make year a number`() {
         val actual = MoviesReader.readMoviesFrom("movies.txt")
 
-        assertThat(actual[0], equalTo(Movie("Taxi driver", 1976, "yes", "Robert De Niro, Jodie Foster")))
+        assertThat(actual[0], equalTo(Movie("Taxi driver", 1976, "yes", listOf("Robert De Niro", "Jodie Foster"))))
+    }
+
+    @Test fun `split actors into a list`() {
+        val actual = MoviesReader.readMoviesFrom("movies.txt")
+
+        assertThat(actual[0], equalTo(Movie("Taxi driver", 1976, "yes", listOf("Robert De Niro", "Jodie Foster"))))
     }
 }

@@ -16,7 +16,7 @@ object MoviesReader {
         val title = splitLine[0]
         val year = splitLine[1].toInt()
         val awardWinner = splitLine[2]
-        val actors = splitLine[3]
+        val actors = splitLine[3].split(',').map { it.trim() }
         return Movie(
             title,
             year,
