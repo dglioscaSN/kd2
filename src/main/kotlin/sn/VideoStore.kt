@@ -11,6 +11,6 @@ class VideoStore(private val movies: List<Movie>) {
     fun moviesWithSameActorName(actorName: String) = movies.filter { it.actors.containsActor(actorName) }
 
     private fun isAwardWinner(it: Movie) = it.awardWinner == "yes"
-}
 
-private fun List<String>.containsActor(actorName: String) = this.find { it.contains(actorName) } != null
+    private fun List<String>.containsActor(actorName: String) = this.find { it.contains(actorName) } != null
+}
