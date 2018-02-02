@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="">
+    <list default="true" id="e30e3ed1-2e60-4f9b-8180-324694c4a411" name="Default" comment="desperately trying to ignore this file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" afterPath="$PROJECT_DIR$/src/main/kotlin/sn/VideoStore.kt" />
     </list>
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoviesReaderTest.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MoviesReaderTest.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="289">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#12#115#0" expanded="true" />
               </folding>
@@ -86,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="movies.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/movies.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -1035,7 +1035,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517570060085</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="desperately trying to ignore this file">
+      <created>1517570605740</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1517570605740</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1082,8 +1089,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25579977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1124,7 +1131,8 @@
     <MESSAGE value="find movies won award" />
     <MESSAGE value="clean up" />
     <MESSAGE value="git ignore update" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore update" />
+    <MESSAGE value="desperately trying to ignore this file" />
+    <option name="LAST_COMMIT_MESSAGE" value="desperately trying to ignore this file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1504,16 +1512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="e#12#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/sn/MoviesReader.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -1545,25 +1543,25 @@
         <state relative-caret-position="180">
           <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
-            <element signature="e#5887#5891#1" expanded="true" />
-            <element signature="e#44516#44520#0" expanded="true" />
-            <element signature="e#44526#44530#0" expanded="true" />
-            <element signature="e#44611#44615#0" expanded="true" />
-            <element signature="e#44621#44625#0" expanded="true" />
-            <element signature="e#44704#44708#0" expanded="true" />
-            <element signature="e#44714#44718#0" expanded="true" />
-            <element signature="e#44731#44735#0" expanded="true" />
-            <element signature="e#44811#44815#0" expanded="true" />
-            <element signature="e#44821#44825#0" expanded="true" />
-            <element signature="e#44913#44917#0" expanded="true" />
-            <element signature="e#44923#44927#0" expanded="true" />
-            <element signature="e#45006#45010#0" expanded="true" />
-            <element signature="e#45016#45020#0" expanded="true" />
-            <element signature="e#45096#45100#0" expanded="true" />
-            <element signature="e#45106#45110#0" expanded="true" />
-            <element signature="e#45187#45191#0" expanded="true" />
-            <element signature="e#45197#45201#0" expanded="true" />
-            <element signature="e#45212#45216#0" expanded="true" />
+            <element signature="e#6108#6112#1" expanded="true" />
+            <element signature="e#44737#44741#0" expanded="true" />
+            <element signature="e#44747#44751#0" expanded="true" />
+            <element signature="e#44832#44836#0" expanded="true" />
+            <element signature="e#44842#44846#0" expanded="true" />
+            <element signature="e#44925#44929#0" expanded="true" />
+            <element signature="e#44935#44939#0" expanded="true" />
+            <element signature="e#44952#44956#0" expanded="true" />
+            <element signature="e#45032#45036#0" expanded="true" />
+            <element signature="e#45042#45046#0" expanded="true" />
+            <element signature="e#45134#45138#0" expanded="true" />
+            <element signature="e#45144#45148#0" expanded="true" />
+            <element signature="e#45227#45231#0" expanded="true" />
+            <element signature="e#45237#45241#0" expanded="true" />
+            <element signature="e#45317#45321#0" expanded="true" />
+            <element signature="e#45327#45331#0" expanded="true" />
+            <element signature="e#45408#45412#0" expanded="true" />
+            <element signature="e#45418#45422#0" expanded="true" />
+            <element signature="e#45433#45437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1579,8 +1577,18 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/movies.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/sn/MoviesReaderTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#12#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
