@@ -46,4 +46,16 @@ class VideoStoreTest {
 
         assertThat(movies, equalTo(listOf(theoryOfEverything, birdman)))
     }
+
+    @Test fun `actors performing in a movie in a specific year`() {
+        val nineteenhundred = Movie("1900", 1976, "no", listOf("Robert De Niro", "Gérard Depardieu"))
+        val allPresidentsMan = Movie("All the President's men", 1976, "no", listOf("Dustin Hoffman", "Robert Redford"))
+        val movieCollection = listOf(nineteenhundred, allPresidentsMan)
+
+        val videoStore = VideoStore(movieCollection)
+        val movies = videoStore.moviesWithSameActorName("Robert")
+
+        assertThat(movies, equalTo(listOf(nineteenhundred, allPresidentsMan)))
+    }
+
 }
