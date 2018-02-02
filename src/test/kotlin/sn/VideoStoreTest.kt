@@ -46,7 +46,7 @@ class VideoStoreTest {
         val moviesCollection = listOf(nineteenhundred, allPresidentsMan)
         val videoStore = VideoStore(moviesCollection)
 
-        val actual = videoStore.moviesWithSameActorName("Robert")
+        val actual = videoStore.sameActorName("Robert")
 
         assertThat(actual, equalTo(listOf(nineteenhundred, allPresidentsMan)))
     }
