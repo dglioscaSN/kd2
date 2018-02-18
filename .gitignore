@@ -25,3 +25,5 @@ gradle/wrapper/gradle-wrapper.properties
 .idea/shelf
 .idea/copyright/
 .idea/dataSources
+
+out
